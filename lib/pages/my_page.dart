@@ -7,7 +7,7 @@ class  MyPage extends StatelessWidget {
   final images = [
     'https://pbs.twimg.com/profile_images/1647878586416893952/0CdiwJYC_400x400.jpg',
     'https://pbs.twimg.com/profile_images/1673692042919292928/U0a0Tb8U_400x400.jpg',
-    'https://pbs.twimg.com/profile_images/1582358029604790273/kPuRbqm0_400x400.jpg',
+    'https://pbs.twimg.com/profile_images/1672473298461147136/LK14MfY1_400x400.jpg',
   ];
 
   @override
