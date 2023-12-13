@@ -23,7 +23,7 @@ class  MyPage extends StatelessWidget {
           ),
         actions: [
           Icon(Icons.keyboard_arrow_down), // アイコンを右寄せに配置
-          const SizedBox(width: 110),
+          const SizedBox(width: 130),
           Icon(Icons.add_outlined), // アイコンを右寄せに配置
           const SizedBox(width: 16),
           Icon(Icons.menu), // アイコンを右寄せに配置
@@ -247,25 +247,6 @@ class  MyPage extends StatelessWidget {
               )
                 ]
               ),
-              // Row(children: [
-              //   Image.network(
-              //     'https://pbs.twimg.com/profile_images/1673692042919292928/U0a0Tb8U_400x400.jpg',
-              //     width: 119,
-              //     height: 119,
-              //   ),
-              //   const SizedBox(width: 1),
-              //   Image.network(
-              //     'https://pbs.twimg.com/profile_images/1673692042919292928/U0a0Tb8U_400x400.jpg',
-              //     width: 119,
-              //     height: 119,
-              //   ),
-              //   const SizedBox(width: 1),
-              //   Image.network(
-              //     'https://pbs.twimg.com/profile_images/1673692042919292928/U0a0Tb8U_400x400.jpg',
-              //     width: 119,
-              //     height: 119,
-              //   ),
-              // ],),
               GridView.count(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
